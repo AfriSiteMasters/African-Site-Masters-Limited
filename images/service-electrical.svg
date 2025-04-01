@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <style>
+    .pole{fill:#333333;}
+    .wire{fill:none;stroke:#333333;stroke-width:2;}
+    .lightning{fill:#F0A500;}
+    .background{fill:#F4F4F4;}
+  </style>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" class="background"/>
+  
+  <!-- Electricity Poles -->
+  <rect x="100" y="100" width="20" height="150" class="pole"/>
+  <rect x="280" y="100" width="20" height="150" class="pole"/>
+  
+  <!-- Cross Beams -->
+  <rect x="70" y="120" width="80" height="10" class="pole"/>
+  <rect x="250" y="120" width="80" height="10" class="pole"/>
+  
+  <!-- Wires -->
+  <line x1="80" y1="125" x2="260" y2="125" class="wire"/>
+  <line x1="100" y1="125" x2="280" y2="125" class="wire"/>
+  <line x1="140" y1="125" x2="320" y2="125" class="wire"/>
+  
+  <!-- Lightning Symbol -->
+  <polygon points="200,50 180,100 210,100 190,150 220,100 190,100 210,50" class="lightning"/>
+</svg>

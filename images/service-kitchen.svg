@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <style>
+    .cabinet{fill:#CF7500;}
+    .counter{fill:#F0A500;}
+    .appliance{fill:#333333;}
+    .handle{fill:#FFFFFF;}
+    .background{fill:#F4F4F4;}
+  </style>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" class="background"/>
+  
+  <!-- Lower Cabinets -->
+  <rect x="50" y="150" width="300" height="100" class="cabinet"/>
+  
+  <!-- Counter Top -->
+  <rect x="50" y="150" width="300" height="10" class="counter"/>
+  
+  <!-- Upper Cabinets -->
+  <rect x="50" y="50" width="300" height="60" class="cabinet"/>
+  
+  <!-- Sink -->
+  <rect x="100" y="120" width="80" height="30" class="appliance"/>
+  
+  <!-- Stove -->
+  <rect x="220" y="120" width="80" height="30" class="appliance"/>
+  <circle cx="240" cy="135" r="10" class="counter"/>
+  <circle cx="280" cy="135" r="10" class="counter"/>
+  
+  <!-- Cabinet Handles -->
+  <rect x="80" y="80" width="20" height="5" class="handle"/>
+  <rect x="150" y="80" width="20" height="5" class="handle"/>
+  <rect x="220" y="80" width="20" height="5" class="handle"/>
+  <rect x="290" y="80" width="20" height="5" class="handle"/>
+  
+  <rect x="80" y="200" width="20" height="5" class="handle"/>
+  <rect x="150" y="200" width="20" height="5" class="handle"/>
+  <rect x="220" y="200" width="20" height="5" class="handle"/>
+  <rect x="290" y="200" width="20" height="5" class="handle"/>
+</svg>

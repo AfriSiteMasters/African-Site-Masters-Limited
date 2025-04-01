@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <style>
+    .box{fill:#FFFFFF;stroke:#F0A500;stroke-width:2;}
+    .line{stroke:#333333;stroke-width:2;}
+    .text{font-family:Arial;font-size:14px;text-anchor:middle;fill:#333333;}
+    .title{font-family:Arial;font-size:16px;font-weight:bold;text-anchor:middle;fill:#333333;}
+  </style>
+  
+  <!-- CEO Box -->
+  <rect x="350" y="20" width="150" height="60" rx="5" class="box"/>
+  <text x="425" y="50" class="title">CHIEF EXECUTIVE</text>
+  <text x="425" y="70" class="title">OFFICER</text>
+  
+  <!-- Vertical Line from CEO -->
+  <line x1="425" y1="80" x2="425" y2="110" class="line"/>
+  
+  <!-- Horizontal Line under CEO -->
+  <line x1="125" y1="110" x2="725" y2="110" class="line"/>
+  
+  <!-- Vertical Lines to each department -->
+  <line x1="125" y1="110" x2="125" y2="140" class="line"/>
+  <line x1="275" y1="110" x2="275" y2="140" class="line"/>
+  <line x1="425" y1="110" x2="425" y2="140" class="line"/>
+  <line x1="575" y1="110" x2="575" y2="140" class="line"/>
+  <line x1="725" y1="110" x2="725" y2="140" class="line"/>
+  
+  <!-- Department Boxes -->
+  <rect x="50" y="140" width="150" height="60" rx="5" class="box"/>
+  <text x="125" y="170" class="title">ACCOUNTANT</text>
+  
+  <rect x="200" y="140" width="150" height="60" rx="5" class="box"/>
+  <text x="275" y="170" class="title">ADMINISTRATIVE</text>
+  <text x="275" y="190" class="text">OFFICER</text>
+  
+  <rect x="350" y="140" width="150" height="60" rx="5" class="box"/>
+  <text x="425" y="170" class="title">PROJECT</text>
+  <text x="425" y="190" class="text">MANAGER</text>
+  
+  <rect x="500" y="140" width="150" height="60" rx="5" class="box"/>
+  <text x="575" y="170" class="title">ARCHITECT</text>
+  
+  <rect x="650" y="140" width="150" height="60" rx="5" class="box"/>
+  <text x="725" y="170" class="title">IT & TECHNICAL</text>
+  <text x="725" y="190" class="text">SUPPORT</text>
+  
+  <!-- Vertical Lines from Project Manager -->
+  <line x1="425" y1="200" x2="425" y2="230" class="line"/>
+  
+  <!-- Horizontal Line under Project Manager -->
+  <line x1="275" y1="230" x2="575" y2="230" class="line"/>
+  
+  <!-- Vertical Lines to subordinates -->
+  <line x1="275" y1="230" x2="275" y2="260" class="line"/>
+  <line x1="425" y1="230" x2="425" y2="260" class="line"/>
+  <line x1="575" y1="230" x2="575" y2="260" class="line"/>
+  
+  <!-- Subordinate Boxes -->
+  <rect x="200" y="260" width="150" height="60" rx="5" class="box"/>
+  <text x="275" y="290" class="title">OFFICE</text>
+  <text x="275" y="310" class="text">ASSISTANT</text>
+  
+  <rect x="350" y="260" width="150" height="60" rx="5" class="box"/>
+  <text x="425" y="290" class="title">WORKS</text>
+  <text x="425" y="310" class="text">SUPERVISOR</text>
+  
+  <rect x="500" y="260" width="150" height="60" rx="5" class="box"/>
+  <text x="575" y="290" class="title">WORKSHOP</text>
+  <text x="575" y="310" class="text">ASSISTANTS</text>
+</svg>

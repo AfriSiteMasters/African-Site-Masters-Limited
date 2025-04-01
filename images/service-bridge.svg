@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <style>
+    .bridge{fill:#333333;}
+    .support{fill:#CF7500;}
+    .water{fill:#3498db;}
+    .background{fill:#F4F4F4;}
+  </style>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" class="background"/>
+  
+  <!-- Water -->
+  <rect x="0" y="200" width="400" height="100" class="water"/>
+  
+  <!-- Bridge -->
+  <rect x="50" y="150" width="300" height="20" class="bridge"/>
+  
+  <!-- Bridge Supports -->
+  <rect x="100" y="170" width="20" height="80" class="support"/>
+  <rect x="280" y="170" width="20" height="80" class="support"/>
+  
+  <!-- Bridge Railings -->
+  <rect x="50" y="140" width="300" height="10" class="bridge"/>
+  <rect x="50" y="130" width="10" height="20" class="bridge"/>
+  <rect x="100" y="130" width="10" height="20" class="bridge"/>
+  <rect x="150" y="130" width="10" height="20" class="bridge"/>
+  <rect x="200" y="130" width="10" height="20" class="bridge"/>
+  <rect x="250" y="130" width="10" height="20" class="bridge"/>
+  <rect x="300" y="130" width="10" height="20" class="bridge"/>
+  <rect x="340" y="130" width="10" height="20" class="bridge"/>
+</svg>
